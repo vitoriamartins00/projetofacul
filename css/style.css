@@ -17,6 +17,11 @@
     background-position: center center;
 }
 
+.logo{
+    position: absolute;
+    top: 10%;
+}
+
 .login {
     display: flex;
     justify-content: center;
@@ -73,7 +78,7 @@
 .form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 6px;
 }
 
