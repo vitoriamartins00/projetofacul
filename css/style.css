@@ -1,0 +1,193 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(../images/index/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+/* variáveis css */
+:root {
+    --color-light: #EDF2FA;
+    --color-light2: #D9D9D9;
+    --color-dark: #000000;
+    --color-blue: #08184D;
+    --color-blue15: #09184D;
+    --color-green: #308A36;
+    --color-gray: #808085;
+    --color-brown: #7F5B26;
+    --bd-radius: 8px;
+}
+
+.btn{
+    color:#D9D9D9;
+    font-size: 10px;
+    font-weight: 200;
+    border-radius: 10px;
+    padding: 10px 62px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color:#D9D9D9;
+    border:1px solid #EDF2FA;
+    box-shadow: #808085;
+}
+
+.btn-primary:hover {
+    background-color: #D9D9D9;
+    color:#09184D;
+}
+
+.lista-rede {
+    display: flex;
+}
+
+.lista-rede li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-size: 14px;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.forget .check input {
+    min-width: 20px;
+    min-height: 20px;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.forget a{
+    font-size: 12px;
+    color: #D9D9D9;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.unlock-app{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.unlock-app li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .login {
+        padding: 1rem;
+    }
+
+    .form {
+        gap: 5px;
+    }
+
+    .forget a {
+        font-size: 10px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .unlock-app {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .unlock-app li {
+        padding: 5px;
+    }
+
+    .hr {
+        font-size: 12px;
+    }
+
+    .lista-rede li {
+        padding: 5px;
+    }
+
+    .btn-primary {
+        text-align: center;
+        padding: 10px 62px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forget .check input {
+        min-width: 15px;
+        min-height: 15px;
+    }
+
+    .background {
+        padding: 1rem;
+    }
+
+    .forget .check input {
+        min-width: 15px;
+        min-height: 15px;
+    }
+
+    .background {
+        padding: 1rem;
+    }
+
+    .lista-rede {
+        gap: 5px;
+    }
+
+    
+}
